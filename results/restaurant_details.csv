@@ -1,0 +1,11 @@
+restaurant_name,restaurant_logo,latitude,longitude,cuisine_tags,menu_file
+Gino's Deli,https://images.deliveryhero.io/image/talabat/restaurants/logo_-_2021-11-23T17_637732788146540497.jpg?width=180,25.0648583638963,55.1383772692595,"Sandwiches, Pasta, Italian",ginos-deli-khalifa-city.csv
+Pasta Della Nonna,https://images.deliveryhero.io/image/talabat/restaurants/Logos_PastaDellaNonna_Sec637794192311679134.jpg?width=180,25.0651332,55.13827815,"Italian, Pasta, Salad",pasta-della-nona.csv
+Pizzaro,https://images.deliveryhero.io/image/talabat/restaurants/pizzaro_logo_2_(500x_637901901529791866.jpg?width=180,25.083309,55.146559,"Italian, Pizza, Pasta",pizzaro.csv
+The Pasta Guyz,https://images.deliveryhero.io/image/talabat/restaurants/ThePastaGuyz-Logo_637563263478806436.jpg?width=180,25.0737758910733,55.1322831934299,"Italian, Pasta",the-pasta-guyz.csv
+Pizza Di Rocco,https://images.deliveryhero.io/image/talabat/restaurants/PDR_WineRed_Logo_637661895331887248.jpg?width=180,25.0650915,55.1387907,"Pizza, Pasta, Italian",pizza-di-rocco.csv
+Cinnabon,https://images.deliveryhero.io/image/talabat/restaurants/Logo_Cinna_637166097104828806.jpg?width=180,25.0761877984336,55.1404053294465,"Desserts, American, Cafe",cinnabon-tgo.csv
+Everyday Roastery Coffee,https://images.deliveryhero.io/image/talabat/restaurants/Profile_Pic_637812188944902752.png?width=180,25.078018,55.137482,"Coffee & Tea, Breakfast, Cafe",everyday-roastery-business-bay.csv
+CHEAT DAY,https://images.deliveryhero.io/image/talabat/restaurants/CHEAT_DAY__Logo637724064306340320.jpg?width=180,25.0655028,55.1402209,"Burgers, Fast Food, Burrito",cheat-day-jlt.csv
+WINGO - House Of Wings,https://images.deliveryhero.io/image/talabat/restaurants/logo_637771585868664491.jpg?width=180,25.065867,55.139626,"Wings, Milkshakes, American",wingo--house-of-wings.csv
+GORILLA BURGER,https://images.deliveryhero.io/image/talabat/restaurants/Gorilla_Burger_-_New_637707591680380780.jpg?width=180,25.065867,55.139626,"Burgers, Sliders, Milkshakes",gorilla-burgers.csv
