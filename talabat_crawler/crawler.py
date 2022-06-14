@@ -184,12 +184,12 @@ class Crawler:
             logging.error(e)
 
     def get_restaurant_details(self) -> None | DataFrame:
-        if self.__restaurant_details == {}:
+        if not self.__flag:
             return None
         return DataFrame(self.__restaurant_details)
 
     def get_restaurant_menu(self) -> None | DataFrame:
-        if not self.__restaurant_menu_details:
+        if not self.__flag:
             return None
         return DataFrame(self.__restaurant_menu_details)
 
