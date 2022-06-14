@@ -175,19 +175,23 @@ class Crawler:
 
         except KeyError as e:
             self.__flag = False
-            # self.__restaurant_menu_details = []
+            self.__restaurant_menu_details = []
             logging.error(f'Invalid key {e}')
 
         except Exception as e:
             self.__flag = False
-            # self.__restaurant_menu_details = []
+            self.__restaurant_menu_details = []
             logging.error(e)
 
-    def get_restaurant_details(self) -> {}:
-        return self.__restaurant_details
+    def get_restaurant_details(self) -> None | DataFrame:
+        if self.__restaurant_details == {}:
+            return None
+        return DataFrame(self.__restaurant_details)
 
-    def get_restaurant_menu(self) -> list:
-        return self.__restaurant_menu_details
+    def get_restaurant_menu(self) -> None | DataFrame:
+        if not self.__restaurant_menu_details:
+            return None
+        return DataFrame(self.__restaurant_menu_details)
 
     def write_to_csv(self):
         if self.__flag and self.__restaurant_details != {} and self.__restaurant_menu_details != []:
