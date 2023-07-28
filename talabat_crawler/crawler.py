@@ -141,6 +141,7 @@ class Crawler:
             self.__restaurant_details['longitude'] = [float(restaurant_json['longitude'])]
             self.__restaurant_details['cuisine_tags'] = [restaurant_json['cuisineString']]
             self.__restaurant_details['menu_file'] = [restaurant_json['restaurantSlug'] + '.csv']
+            # Can add menu items and estimated calories to this list?
 
         except KeyError as e:
             self.__flag = False
